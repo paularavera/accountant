@@ -35,7 +35,8 @@
     <div>
 <form class="form" method="POST" netlify>
     <div><label for="categoria">Categoría:</label></div>
-    <select name="categoria" id="categorias">
+    <select name="categoria" id="categorias" required>
+        <option value="">Seleccionar</option>
         <option value="almacen">Almacén</option>
         <option value="casa">Casa</option>
         <option value="compras">Compras</option>
@@ -49,7 +50,7 @@
         <option value="viajes">Viajes</option>
     </select>
      <div><label for="tipo">Tipo:</label></div>
-    <select name="categoria" id="categorias">
+    <select name="categoria" id="categorias" required>
         <option value="gasto">Gasto</option>
         <option value="ingreso">Ingreso</option>
     </select>
