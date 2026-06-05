@@ -94,3 +94,9 @@ color: #58509D;
     display: flex;
     gap: 5px;
 }
+
+.formulario{
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+}
