@@ -95,8 +95,10 @@ color: #58509D;
     gap: 5px;
 }
 
-.formulario{
+.form{
     display: flex;
-    max-width: 200px;
     flex-direction: column;
+    gap: 20px 0;
+    padding: 100px;
+    justify-content: space-evenly
 }

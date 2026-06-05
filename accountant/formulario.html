@@ -29,9 +29,12 @@
     <div>
         <img class="arco" src="imagenes/Curva.svg" alt="">
     </div>
-    <div class="formulario">
-<form action="procesar.php" method="POST">
-    <label for="categoria">Categoría:</label>
+    <div>
+<p class="category-title">Ingresar movimiento</p>
+    </div>
+    <div>
+<form class="form" action="procesar.php" method="POST">
+    <div><label for="categoria">Categoría:</label></div>
     <select name="categoria" id="categorias">
         <option value="almacen">Almacén</option>
         <option value="casa">Casa</option>
@@ -45,13 +48,13 @@
         <option value="transporte">Transporte</option>
         <option value="viajes">Viajes</option>
     </select>
-     <label for="tipo">Tipo:</label>
+     <div><label for="tipo">Tipo:</label></div>
     <select name="categoria" id="categorias">
         <option value="gasto">Gasto</option>
         <option value="ingreso">Ingreso</option>
     </select>
-    <label for="monto">Monto</label>
+    <div><label for="monto">Monto</label></div>
     <input type="number" id="number" name="number" required>
-    <button type="submit">Listo</button>
+    <div><button type="submit">Listo</button></div>
 </form>
     </div>
