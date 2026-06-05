@@ -4,75 +4,80 @@
 <head>
     <title>Accountant</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="body">
     <header class="header">
-        <div class="iconos-header">
-            <div><img src="imagenes/user.png" alt=""></div>
-            <div><img src="imagenes/home.png" alt=""></div>
-            <div><img src="imagenes/bookmark.png" alt=""></div>
-        </div>
+        <nav class="iconos-header">
+            <a href="./perfil.html"><img src="imagenes/user.png" alt=""></a>
+            <a href="./index.html"><img src="imagenes/home.png" alt=""></a>
+            <a href="./categories.html"><img src="imagenes/bookmark.png" alt=""></a>
+        </nav>
         <div class="account-balance">
             <div>
                 <img class="image" src="imagenes/moneda.png" alt="">
             </div>
             <p class="balance">Balance</p>
-            <p class="total">$45,000.00</p>
+            <p class="total">$45,000.<span class="digite">00</span></p>
         </div>
         <div class="movements">
             <p>Gastos</p>
-            <p>Ingresos</p>
-        </div>
-        <div class="arco">
-            <img class="arco" src="imagenes/arco acc.svg" alt="">
+            <p class="no-select">Ingresos</p>
         </div>
     </header>
-    <div class="flex">
+    <div>
+        <img class="arco" src="imagenes/Curva.svg" alt="">
+    </div>
+    <main class="chart-container">
         <div>
-            <p>Total</p>
-            <P>$0.00</P>
-            <div><img src="imagenes/chart-gastos.png" alt=""></div>
+            <p class="total-text small-text">Total</p>
+            <P class="total-text">$57,400.00</P>
+            <img class="chart-img" src="imagenes/chart-gastos.png" alt="chart">
         </div>
         <div>
             <div class="flex">
-                <p>Diario</p>
-                <p>Semanal</p>
-                <p>Mensual</p>
-                <p>Anual</p>
+                <p class="no-select">Diario</p>
+                <p class="select">Semanal</p>
+                <p class="no-select">Mensual</p>
+                <p class="no-select">Anual</p>
             </div>
             <div class="category-list">
-                <p class="item"><span class="category-circle"></span>Ropa</p>
-                <p class="item"><span class="category-circle"></span>Alimentos</p>
-                <p class="item"><span class="category-circle"></span>Transporte</p>
-                <p class="item"><span class="category-circle"></span>Servicios</p>
-                <p class="item"><span class="category-circle"></span>Ocio</p>
-            </div>
-            <div>
+                <div class="category-item">
+                    <p class="item"><span class="category-circle" style="--color: #ef4444"></span>Ropa</p>
+                    <p>$20,000.00</p>
+                </div>
+                <div class="category-item">
+                    <p class="item"><span class="category-circle" style="--color: #FACC15"></span>Alimentos</p>
+                    <p>$20,000.00</p>
+                </div>
+                <div class="category-item">
+                    <p class="item"><span class="category-circle" style="--color: #6366F1"></span>Transporte</p>
+                    <p>$20,000.00</p>
+                </div class="category-item">
+                <div class="category-item">
+                    <p class="item"><span class="category-circle" style="--color: #3B82F6"></span>Servicios</p>
+                    <p>$20,000.00</p>
+                </div>
+                <div class="category-item">
+                    <p class="item"><span class="category-circle" style="--color: #352085"></span>Ocio</p>
+                    <p>$20,000.00</p>
+                </div>
             </div>
         </div>
-
-    </div>
+    </main>
     <div class="iconos-body">
-        <div><img src="imagenes/boton-formulario.png" alt=""></div>
+        <nav>
+            <a href="formulario.html"><img src="imagenes/boton-formulario.png" alt=""></a>
+        </nav>
     </div>
-    <form action="">
-        <div>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required />
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-        </div>
-        <div>
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required />
-        </div>
-        <div>
-            <button type="submit">Enviar</button>
-        </div>
-    </form>
+    <footer class="footer">
+        <p>Copyright (©) 2026 Accountant. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
