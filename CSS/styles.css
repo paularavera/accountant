@@ -217,7 +217,7 @@ main {
 
 /* Form */
 
-.form {
+form {
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -226,20 +226,20 @@ main {
   color: #58509d;
 }
 
-.form label {
+form label {
   display: flex;
   flex-direction: column;
   gap: 5px 0;
 }
 
-.form input,
+form input,
 select {
   padding: 2px 5px;
   border-radius: 5px;
   border-color: #8683a0;
 }
 
-.form button {
+form button {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -253,7 +253,7 @@ select {
   margin: auto;
 }
 
-.form button:hover {
+form button:hover {
     background-color: #312c5e;
     cursor: pointer;
 }
@@ -277,4 +277,48 @@ select {
     width: 100%;
     justify-content: center;
     margin: auto;
+}
+
+.header-blanco {
+  background-color: #f5f5f5;
+  color: #58509d;
+  height: 220px;
+  padding: 15px;
+}
+
+.arco-violeta {
+  background-color: #f5f5f5;
+}
+
+.body-violeta {
+  background-color: #58509d;
+}
+
+.form-login {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+  margin: auto;
+  color: #58509d;
+  background-color: #f5f5f5;
+  padding: 50px 50px;
+  border-radius: 25px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: #f5f5f5
+}
+
+.space-y {
+  margin-top: 50px;
+}
+
+.boton-login{
+  color: #f5f5f5;
+  text-decoration: none;
+  width: 150px;
+  padding: 5px 15px;
 }
