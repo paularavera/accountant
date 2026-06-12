@@ -323,3 +323,9 @@ form button:hover {
   width: 150px;
   padding: 5px 15px;
 }
+
+.fade-up {
+  data-aos="fade-up"
+  data-aos-offset="200"
+  data-aos-delay="50"
+}
