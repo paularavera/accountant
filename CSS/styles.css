@@ -8,6 +8,13 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.p-color{
+  color: #58509d;
+}
+a {
+    text-decoration: none;
+}
+
 .header {
   background-color: #58509d;
   color: #f5f5f5;
