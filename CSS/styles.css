@@ -314,6 +314,10 @@ form button:hover {
   border-radius: 25px;
 }
 
+.form-responsive {
+  width: 300px;
+}
+
 .title {
   width: 100%;
   text-align: center;
@@ -331,3 +335,6 @@ form button:hover {
   padding: 5px 15px;
 }
 
+.text-color {
+  color: #58509d;
+}
